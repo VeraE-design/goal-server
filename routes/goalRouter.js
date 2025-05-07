@@ -12,8 +12,8 @@ const {
 
 router.post("/", createGoal);
 router.get("/", getAllGoals);
-router.get("completed", getCompletedGoals);
-router.get("ongoing", getOngoingGoals);
+router.get("/completed", getCompletedGoals);
+router.get("/ongoing", getOngoingGoals);
 router.get("/:goalId", getSingleGoal);
 router.patch("/:goalId", updateGoal);
 router.delete("/:goalId", deleteGoal);

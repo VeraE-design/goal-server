@@ -1,0 +1,28 @@
+{
+    name:
+    email:
+    number:
+
+}
+
+validation
+data type
+vaid types: string, Boolean, date, Array, ObjectId, mixed, number (min, max)
+string,
+(minLength, maxLength)
+
+timestamps: gives us information about when the data was created as well as updated
+
+middleware - functions that runs on the server between request and responses
+
+create save
+
+MVC ARCHitecture 
+M - models where we build the schema
+views** - skipped (done by the frond end)
+controllers- functions / logic will be written  ---> routes
+
+req.params
+{goalid: ''}
+
+CORS
