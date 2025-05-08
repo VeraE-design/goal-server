@@ -7,6 +7,7 @@ const goalSchema = new Schema(
       type: String,
       required: true,
       unigue: true,
+      lowercase: true
     },
 
     description: {
